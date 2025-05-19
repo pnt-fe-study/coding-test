@@ -11,4 +11,8 @@
 // 실제 코드
 function solution(input) {
   // 코드 작성
+  function solution(arr) {
+    arr.sort((a, b) => a - b)
+    return arr;
+  }
 }
